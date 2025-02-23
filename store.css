@@ -1,0 +1,105 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: black;
+    color: aliceblue;
+    height: 200px;
+    
+}
+.head ul li {
+    display:inline-block;
+    margin-right: 20px;
+    margin-top: 90px; 
+}
+.head h2{
+    margin-top: 90px;
+}
+ .head  li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+#h1{
+    font-size: 50px;
+    margin-left: 180px;
+    margin-bottom: 200px;
+    margin-top: 60px;
+}
+.main{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    transform: translateY(-150px);
+}
+.main img{
+    width: 240px;
+    height:220px;
+    transition:all 2s  ;
+}
+.main p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.main span{
+    
+    letter-spacing: 4px;
+}
+img:hover{
+    scale: 1.1;
+}
+.main button{
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+    border: 1px solid black;
+}
+.main3{
+    display: grid;
+    grid-template-columns: repeat(3,480px);
+    background-color: black;
+    color: aliceblue;  
+}
+.sub1{
+    display:flex;
+    margin-top: 10px;
+    flex-direction: column;
+    transform: translateX(180px);
+}
+.sub2{
+    margin-top: 10px;
+}
+.sub1 ul li{
+    list-style: none;
+    margin: 30px 0px;
+}
+.sub1 li a{
+    text-decoration: none;
+    color: white;
+}
+.sub2 i{
+    color: aliceblue;
+    font-size: 20px;
+    margin-top:30px;
+    margin-right: 10px;
+}
+.sub2 a{
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.sub3{
+    margin-top: 10px;
+}
+.sub3 p{
+    margin-top: 40px;
+    margin-left: 10px;
+}
